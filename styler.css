@@ -1,139 +1,243 @@
 body {
-    margin: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
-.flex-container{
-    background-color: tomato;
-    height: 50px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
+
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+  margin-left: 188px;
+  font-size: 20px;
+}
+.flex-container {
+  background-color: #be3144;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 .logo {
-    padding: 16px;
-    color: #ffffff;
-    font-size: 20px;
+  padding: 16px;
+  color: #ffffff;
+  font-size: 20px;
 }
-nav a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    margin-left: 20px;
-    height: 82%;
-    padding-top: 19px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 20px;
+  height: 82%;
+  padding-top: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.flex-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  font-family: "Roboto", sans-serif;
 }
-nav a:hover{
-    background-color: black;
+nav a:hover {
+  background-color: #2e2f32;
 }
-.flex-hero{
-    background-color: #1A191B;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.7;
-    color: #ffffff;
-    font-size: 30px;
+.flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.icons {
+  display: none;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.flex-hero {
+  background-color: #2e2f32;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200px;
 }
 .flex-hero div {
-    text-align: center;
+  text-align: center;
 }
 .flex-hero h1 {
-    font-size: 40px;
-    color: #ffffff;
-    margin: 0px;
+  font-size: 60px;
+  color: #ffffff;
+  margin: 0px;
 }
 .flex-hero .tagline {
- font-size: 19px;
- color: #802F3B;
+  font-size: 25px;
+  color: #802f3b;
 }
 .photos {
-    background-color: #45567D;
+  background-color: #45567d;
 }
 .photos h4 {
-    font-size: 40px;
-    text-align: center;
-    text-decoration:underline;
-    margin: 0%;
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0%;
+  color: #ffffff;
 }
 .gallary {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
 }
 .gallary img {
-    width: 400px;
-    margin-bottom: 30px;    
+  width: 380px;
+  height: 300px;
 }
-.showall {
-    text-align: center;
+
+.box {
+  width: 380px;
+  padding-bottom: 63px;
+  margin-left: 113px;
 }
-.showall button {
-    background-color: #303841;
-    padding: 12px;
-    color: #ffffff;
-    font-size: 17px;
-    border-radius: 5px;
-    border: 1px solid #303841;
-    font-weight: bold;
-    width: 150px;
+
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -5px;
 }
-.showall button:hover {
-    background-color: #be3144;
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.code {
+  color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+.boxheading:hover .code {
+  color: orangered;
 }
 .last {
-    background-color: #24292e;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
+  background-color: #24292e;
+  justify-content: center;
+  align-items: center;
+}
+.written {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  color: wheat;
+}
+.socialmedia {
+  display: flex;
+  color: #ffffff;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.github {
+  display: inline-block;
+}
+.github:hover {
+  padding-top: 40px;
+  transition: padding 1.5s ease-in-out;
+}
+.instagram {
+  display: inline-block;
+}
+.instagram:hover {
+  padding-top: 40px;
+  transition: padding 1.5s ease-in-out;
+}
+.socialmedia a {
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
+  float: left;
+  display: block;
+}
+.line {
+  color: #be3144;
+}
+.lastsentence {
+  text-align: right;
+  font-size: 20px;
+  color: #d0d1d2;
+  padding-right: 630px;
+  align-items: center;
+}
+.tag {
+  text-align: center;
+  color: #d1d2d4;
+}
+@media (max-width: 1000px) {
+  .flex-container {
+    background-color: #be3144;
+    height: 53px;
   }
-  .written {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    color: wheat;
+  nav a:hover {
+    background: none;
   }
-  .facebook {
-    color: #ffffff;
-    font-size: 25px;
-    text-align: center;
-    word-spacing: 10px;
-    transition: ;
-  }
-  .line {
-    color: #be3144;
-  }
-  .lasttext {
-    text-align: initial;
-    font-size: 20px;
-    color: #d0d1d2;
-    display: flex;
-    justify-content: space-between;
-  }
-  .lastsentence {
-    text-align: right;
-    font-size: 20px;
-    color: #d0d1d2;
-  }
-  .tag {
-    text-align: center;
-    color: #d1d2d4;
-  }
-  .facebook div {
-    transition: width 2s, height 4s;
-  }
-  .facebook div {
-    transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
+  .flex-hero {
+    width: auto;
+    font-size: 30px;
   }
 
+  .flex-hero h1 {
+    font-size: 40px;
+  }
+
+  .text {
+    width: 38 0px;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+  .gallary img {
+    width: 306px;
+    object-fit: cover;
+    padding-left: 0px;
+  }
+  .flex-nav {
+    display: none;
+  }
+  .icons {
+    display: block;
+    height: 50px;
+  }
+  .mind {
+    display: none;
+    height: 50px;
+  }
+  .lastsentence {
+    padding-right: 100px;
+  }
+  .socialmedia {
+    justify-content: center;
+  }
+  .box {
+    margin-left: 28px;
+  }
+  .boxheading {
+    width: 267px;
+  }
+  .flex-container nav a {
+    display: flex;
+    margin-left: -148px;
+  }
+  .logo span {
+    display: none
+    
+    ;
+  }
+}

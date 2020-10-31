@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+.card {
+  display: flex;
+}
+.image {
+  background-image: url(images/sir.jpeg);
+  height: 1000px;
+  width: 950px;
+}
+.wrote {
+  margin-top: 10px;
+}
+.about {
+  font-size: 70px;
+  margin-top: -1000px;
+  padding-left: 1040px;
+  color: red;
+}
+.write {
+  font-size: 30px;
+  color: blue;
+  margin-top: 100px;
+  padding-left: 983px;
+}
+.last {
+  font-size: 80px;
+  color: #000;
+  margin-top: -300px;
+}
+.last-text {
+  font-size: 80px;
+  color: #000;
+  margin-top: 35px;
+  padding-left: 243px;
+}
+@media (max-width: 300px) {
+  .image {
+    width: 100%;
+    margin: auto;
+  }
+  .about {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 100px;
+  }
+}

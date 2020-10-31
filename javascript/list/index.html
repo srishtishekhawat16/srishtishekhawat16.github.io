@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    </head>
+    <body>
+      <button onclick="loop()">click here</button>
+      <script>
+        function loop() {
+          var i;
+          var largeNumber;
+  
+          for (i = 0; i <= 15; i++) {
+            document.write("<br>");
+            if (i % 2 == 0) {
+              document.write(`${i}   number is even`);
+            } else {
+              document.write(i, "   number is odd");
+            }
+          }
+        }
+    </script>
+</body>
+</html>

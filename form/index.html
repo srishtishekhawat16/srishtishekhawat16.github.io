@@ -1,0 +1,149 @@
+<doctype html>
+  <html> 
+  <head>
+      <link href="form.css" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bgimg form" > 
+      <div class="backgrounds">
+      <div class="flex-hero">
+          <div>
+              <h1>freeCodeCamp Survey Form</h1>
+              <span class="tagline">Thank you for taking the time to help us improve the platform</span>
+          </div>
+      </div>
+      <div class="background">
+       <form>
+          <p>
+          Name
+          </p>
+          <div class="spacing">
+           <input type="text" class="spacing" class="formsettle" placeholder="Your Name">
+          </div>
+          <p>
+              Email
+          </p>
+          <div class="spacing">
+          <input type="email" class="spacing" class="formsettle" placeholder="Email">
+          </div>
+          <p>
+          Age(option)
+          </p>
+          <div  class="spacing">
+          <input type="number" class="spacing" class="formsettle" placeholder="Age">
+          </div>
+          <p>
+              Which option describes your current role?
+          </p>
+          <section>
+          <div class="spacing">
+          <select  id="dropdown" name="role" class="spacing" class="formsettle"> 
+               <option value="student" class="formsettle">Student</option>
+               <option value="job" class="formsettle">Full Time Job</option>
+               <option value="learner" class="formsettle">Full Time Learner</option>
+               <option value="preferNo" class="formsettle">Prefer not to say</option>
+               <option value="other" class="formsettle">Other</option> 
+          </section>
+                
+          </select>
+           </div>
+          <p>
+              Would you recommend free code camp to a friend?
+          </p> 
+          <section>
+         <br>
+          <input type="radio" name="user-recommended" value="definitly" id="definitly"class="input-radio">
+          Definitly
+          </br>
+          <br> 
+          <input type="radio" name="user-recommended" value="Maybe" id="Maybe" class="input-radio">
+            Maybe
+           </br>
+          <br> 
+          <input type="radio" name="user-recommended" value="Not sure" id="not sure" class="input-radio">
+           Not sure
+          </br> 
+          </section> 
+          <p>
+              What is your favorite feature of free code camp?
+          </p> 
+          <section>
+          <select class="spacing">
+          <option value="challenges"class="formsettle">Challenges</option>
+          <option value="projects"class="formsettle">Projects</option>
+          <option value="community"class="formsettle">Community</option>
+          <option value="openSource"class="formsettle">Open Source</option>
+          </select>
+          </section>
+          <p>
+          What would you like to see improved?
+          <span class=p>(Check all that apply)</span>
+          </p>
+          <section>
+          <br>
+          <span> <input  type="checkbox"name="Prefer" value="Front-End projects" class="input-checkbox">
+          Front-End projects</span>
+        
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value="Back-End projects" class="input-checkbox">
+          Back-End projects</span>
+         
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value="Data visualization" class="input-checkbox">
+          Data visualization</span>
+          
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value="challenges" class="input-checkbox">
+          Challenges</span>
+          
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value=" Open source community" class="input-checkbox">
+          Open source community</span>
+      
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value="  Gitter help rooms" class="input-checkbox">
+          Gitter help rooms</span>
+         
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value=" video" class="input-checkbox">
+          Videos</span>
+         
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value=" city meetups" class="input-checkbox">
+          City meetups</span>
+          
+  
+          <br/>
+          <span> <input  type="checkbox"name="Prefer" value="wiki" class="input-checkbox">
+          Wiki</span>
+          </br> 
+  
+          
+          <span> <input  type="checkbox"name="Prefer" value=" forum" class="input-checkbox">
+          Forum</span>
+          </br> 
+  
+  
+          <span> <input  type="checkbox"name="Prefer" value=" Additional courses " class="input-checkbox">
+          Additional courses</span></br>
+          </section>
+          <p> 
+              Any comments or Suggestions?
+          </p>
+          <textarea id="comments" name="comment" class="textarea" class="input-textarea" placeholder="Write your comment"></textarea>
+          <br/>
+          <br/>
+          <div class="submit">
+              <button type="Submit" value="Submit" class="submit"><span class="last">Submit</span></button>
+          </div>
+      </form>
+      </div>
+      </div>
+  </body>
+  </html>

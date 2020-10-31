@@ -1,84 +1,199 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My website</title>
-        <link href="styler.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <header>
-            <div class="flex-container">
-            <div class="logo">
-                Yash Shekhawat
+  <head>
+    <title>My website</title>
+    <link href="styler.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script>
+      function filter() {
+        var flexnav = document.querySelector(".flex-nav");
+        var icons = document.querySelector(".icons i");
+        
+        icons.style.transition = "0.3s";
+        if (flexnav.style.display == "block") {
+          flexnav.style.display = "none";
+          icons.classList.remove("fa-close");
+          icons.classList.add("fa-bars");
+        } else {
+          flexnav.style.display = "block";
+          icons.classList.remove("fa-bars");
+          icons.classList.add("fa-close");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <div class="logo">Yash <span>Shekhawat</span></div>
+        <div>
+            <nav class="icons">
+                <i class="fa fa-bars" onclick="filter()"></i>
+              </nav>
+          <nav class="flex-nav">
+            <a href="#">About</a>
+            <a href="#photos">Work</a>
+            <a href="#last">Contact</a>
+          </nav>
+
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="flex-hero">
+        <div>
+          <h1>Hey I am Yash Shekhawat</h1>
+          <span class="tagline"><em>a student</em></span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="photos" id="photos">
+        <div>
+          <h4>These are some of my projects</h4>
+          <br />
+          <div class="gallary">
+            <div class="box">
+              <a href="yashsinghshekhawat.github.io/Drona/"></a>
+              <img src="images/DrOnApp.png" />
+                 
+              <div class="boxheading">
+                <span class="code"> < </span>
+                <a href="yashsinghshekhawat.github.io/Drona/" target="_blank">Clone of DrOnApp</a> 
+                <span class="code"> /> </span>
+              </div>
             </div>
-            <div>
-                <nav class="flex-nav">
-                    <a href="#">About</a>
-                    <a href="#">Work</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-            </div>
-        </header>
-        <section>
-            <div class="flex-hero">
-                <div>
-                    <h1>Hey I am Yash Shekhawat</h1>
-                    <span class="tagline">a student</span>
+              <div class="box">
+                  <a href="yashsinghshekhawat.github.io/doremon/dore.html"></a>
+                  <img src="images/Doremon.png" />
+                     
+                  <div class="boxheading">
+                    <span class="code"> < </span>
+                    <a href="yashsinghshekhawat.github.io/doremon/dore.html" target="_blank">My Doremon</a> 
+                    <span class="code"> /> </span>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="photos">
-                <div>
-                    <h4>These are some of my gallary</h4>
-                    <br/>
-                    <div class="gallary">
-                        <img src="image/calc.jpg"/>
-                        <img src="image/map.jpg"/>
-                        <img src="image/random-quote-machine.jpg"/>
-                        <img src="image/tic-tac-toe.jpg"/>
-                        <img src="image/tribute.jpg"/>
-                        <img src="image/wiki.jpg"/>
-                    </div>
-                    <div class="showall">
-                        <button type="Show all" value="Show all">show all ></button>
-                        <br/>
-                        <br/>   
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="last">
-              <div class="written">
-                <br />
-                Let's work together...
-              </div>
-              <div class="tag">
-                <em>How do you take your coffee?</em>
-              </div>
-              <br />
-              <br />
-              <div class="facebook">
-                <div>
-                  facebook twitter github instagram
-                </div>
-              </div>
-              <br />
-              <br />
-              <br />
-              <div class="line">
-                <hr />
-              </div>
-              <br />
-              <div class="lasttext">
-                <div>
-                  **This is just a fake portfolio. All the projects and contact
-                  details given are not real.
-                </div>
-                <div class="lastsentence">© Created for freeCodeCamp</div>
+            <div class="box">
+              <a href="https://yashsinghshekhawat.github.io/zomato%20assignment/zomato.html"></a>
+              <img src="images/yash.png" />
+                 
+              <div class="boxheading">
+                <span class="code"> < </span>
+                <a href="zomato assignment/zomato.html" target="_blank">Clone of zomato</a> 
+                <span class="code"> /> </span>
               </div>
             </div>
-          </section>
-    </body>
+
+          <div class="box">
+            <a href="yashsinghshekhawat.github.io/car/car.html"></a>
+            <img src="images/car.png" />
+               
+            <div class="boxheading">
+              <span class="code"> < </span>
+              <a href="car/car.html" target="_blank">Car with css</a> 
+              <span class="code"> /> </span>
+            </div>
+          </div>
+            
+          <div class="box">
+            <a href="https://yashsinghshekhawat.github.io/flower.html"></a>
+            <img src="images/flower.png" />
+               
+            <div class="boxheading">
+              <span class="code"> < </span>
+              <a href="flower/flower.html" target="_blank">Flower with  css</a> 
+              <span class="code"> /> </span>
+            </div>
+            
+          </div>
+            <div class="box">
+              <a href="yashsinghshekhawat.github.io/cricket/cricket.html"></a>
+              <img src="images/cricket.png" />
+                 
+              <div class="boxheading">
+                <span class="code"> < </span>
+                <a href="cricket assignment/cricket.html" target="_blank">Clone of Cricketshala</a> 
+                <span class="code"> /> </span>
+              </div>
+              
+            </div>
+            <!-- <div class="box">
+              <a href="https://yashsinghshekhawat.github.io/form.html">
+              <img src="images/form.png" />
+              <div class="text"><span></span>my Form<span></span></div>
+            </div> -->
+            <div class="box">
+              <a href="https://yashsinghshekhawat.github.io/form.html"></a>
+              <img src="images/form.png" />
+                 
+              <div class="boxheading">
+                <span class="code"> < </span>
+                <a href="form/form.html" target="_blank">My form</a> 
+                <span class="code"> /> </span>
+              </div>
+              
+            </div>
+            <div class="box">
+              <a href="https://yashsinghshekhawat.github.io/table assignment/"></a>
+              <img src="images/table.png" />
+                 
+              <div class="boxheading">
+                <span class="code"> < </span>
+                <a href="table assignment/index.html" target="_blank">My table assignment</a> 
+                <span class="code"> /> </span>
+              </div>
+              
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="last" id="last">
+        <div class="written">
+          <br />
+          Let's work together...
+        </div>
+        <div class="tag">
+          <em>How do you take your coffee?</em>
+        </div>
+        <br />
+        <br />
+        <div class="socialmedia">
+          <div>
+            <span class="github">
+              <i class="fa fa-github">
+                <a
+                  href="https://www.github.com/YashSinghShekhawat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "
+                  >github</a
+                >
+              </i></span
+            >
+            <span class="instagram">
+              <i class="fa fa-instagram">
+                <a href="https://www.instagram.com/yashshekhawat25"
+                  >Instagram</a
+                ></i
+              ></span
+            >
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="line">
+          <hr />
+        </div>
+        <br />
+        <div class="lasttext">
+          <div class="lastsentence">© Created form freeCodeCamp</div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

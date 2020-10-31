@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  font-family: "raleway", sans-serif;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-left: 280px;
+}
+.side {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+.text {
+  font-size: 15px;
+  font-weight: bold;
+  color: red;
+}
+.left {
+  display: flex;
+  margin-right: 300px;
+  margin-top: 15px;
+}
+.bell {
+  font-size: 18px;
+  height: 50px;
+  width: 80px;
+}
+.bell i {
+  color: black;
+  height: 30px;
+  width: 20px;
+}
+.table {
+  border: 1px solid grey;
+  border-radius: 15px 15px 0 0;
+  padding-top: 330px;
+  height: 100px;
+  width: 912px;
+  margin: auto;
+  margin-top: 50px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  margin-top: -330px;
+}
+.challan {
+  display: flex;
+  height: 30px;
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin-left: 10px;
+  align-items: center;
+}
+.circle {
+  padding-left: 3px;
+  height: 30px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+.circle i {
+  padding-top: 6px;
+  padding-left: 2px;
+}
+.TDS-Computation {
+  display: flex;
+  height: 30px;
+  width: 170px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  align-items: center;
+}
+.FVU-Generation {
+  display: flex;
+  height: 30px;
+  width: 160px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  align-items: center;
+}
+.eTDS-Filling {
+  display: flex;
+  height: 30px;
+  width: 140px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  align-items: center;
+}
+.header a {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+.table-in {
+  margin-top: -270px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.table th {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid cornflowerblue;
+  padding: 10px 53px 10px 28px;
+  text-align: center;
+}
+.table td {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  border-bottom: 1px dotted cornflowerblue;
+  border-right: 1px solid cornflowerblue;
+  padding: 10px 53px 10px 28px;
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.yellow {
+  color: #f1e248;
+}
+.last {
+  display: flex;
+  margin-top: 63px;
+  padding-left: 456px;
+  padding-right: 17px;
+  justify-content: space-between;
+}
+.box {
+  height: 30px;
+  width: 127px;
+  font-size: 20px;
+  text-align: center;
+  background-color: lightgray;
+}

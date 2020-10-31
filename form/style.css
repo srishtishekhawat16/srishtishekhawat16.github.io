@@ -1,0 +1,86 @@
+body {
+  margin: 0;  
+}
+.backgrounds {
+  background-color: #6F6FAA;
+  background-blend-mode: soft-light;
+  height: 1600px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-position: fixed;
+  background-color:  #58588E;
+  background-blend-mode: soft-light
+}
+.bgimg form {
+  background:fixed;
+  font-size: 17px;
+  line-height:1,42857143;
+  color:#FFFFE1;
+ padding: 20px;
+}
+.spacing {
+  width: 100%;
+  height: 50px; 
+  border-radius: 5px;
+}
+.background {
+  background-color:#262644;
+  height: 1350px ;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.background{
+  box-sizing: border-box;
+  display: block;
+  font-family: 'popins',sans-serif;
+}
+.formsettle {
+padding: 5px;
+height: 50px; 
+margin-left: 20px ;
+margin-right: 20px; 
+}
+.formsettle{
+   margin-left:6px;
+   margin-top:6px;
+   margin-right:6px;
+   margin-bottom:6px;
+}
+.input textarea{
+  min-height:120px;
+  width:100% ;
+  padding: 0.700px; 
+}
+.textarea{   
+width: 100%;
+height: 150px;
+padding: 10px;
+}
+.flex-hero div {
+  text-align: center;
+}
+.flex-hero h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0px;
+}
+.flex-hero .tagline {
+font-size: 19px;
+color: #ffffff
+}
+.flex-hero{
+  padding-top: 50px;
+}
+.submit {
+  width: 100%;  
+  height: 50px;
+  background:#37AF65;
+  color: snow;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.last{
+  font-size: 20px;
+}

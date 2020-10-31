@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 70px;
+}
+.header {
+  padding-left: 140px;
+  margin-top: 15px;
+}
+.language {
+  height: 19px;
+  width: 82px;
+  margin-top: 20px;
+  margin-right: 230px;
+}
+.language select {
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.written {
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.8;
+}
+.clinic {
+  font-size: 35px;
+  margin-top: 15px;
+  text-align: center;
+}
+.tagline {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+}
+.gallary img {
+  border-radius: 32px;
+  padding: 10px;
+  padding-left: 750px;
+  margin-top: 10px;
+}
+.more {
+  height: 250px;
+  width: 1000px;
+  border: 1px solid grey;
+  margin-left: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+.more span {
+  text-align: center;
+  padding-top: 21px;
+  font-size: 21px;
+  padding-left: 350px;
+  color: #575757;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.genders {
+  font-size: 15px;
+  padding-left: 30px;
+}
+.master {
+  font-size: 15px;
+  padding-right: 30px;
+}
+.lobby {
+  display: flex;
+  justify-content: space-between;
+}
+.detail {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.master-in {
+  font-size: 20px;
+  padding-right: 30px;
+}
+.locate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.location {
+  padding-left: 30px;
+  font-size: 15px;
+}
+.number {
+  font-size: 15px;
+  padding-right: 30px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+.where {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.cool {
+  font-size: 20px;
+  padding-right: 30px;
+}
+.book {
+  height: 50px;
+  width: 1200px;
+  border-radius: 10px;
+  background-color: purple;
+  margin-left: 180px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+.black {
+  font-size: 20px;
+  color: white;
+}

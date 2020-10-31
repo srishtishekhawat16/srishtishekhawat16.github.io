@@ -1,0 +1,117 @@
+body {margin: 0px;}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+padding-top: 15px;
+padding-left: 25px;
+padding-bottom: -2px;
+}
+.flex-nav {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.navigation {
+padding-top: 15px;
+padding-bottom: -2px;
+padding-right:25px ;
+}
+nav a {
+    padding: 20px;
+    padding-top: 10px;
+    color: black;
+}
+.section1 {background-color: #007BD5;;
+    text-align: center;
+    height: 350px;
+    color: white;
+    font-family: Raleway, Arial, Helvetica;
+    letter-spacing: 1px;
+   
+}
+.section1 h1 {font-size: 37px;
+    padding-top: 80px;
+    margin-top: 5px;
+}
+.section1 h3 {
+    font-size: 28px;
+}
+.section1 .email {
+    padding-top: 35px;
+}
+.emailbar {
+    width: 400px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    font-size: larger;
+}
+button {
+    width: 190px;
+    height: 40px;
+    background-color: rgba(255, 8, 0, 0.911);
+    color: white;
+    border: none;
+}
+.gallery-background {
+    background-color: #ccc;
+    height: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+.images {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 20px;
+}
+h4 {font-family: Quicksand, Tahoma, Arial;
+text-size-adjust: 5px;
+font-size: 27px;
+font-weight: initial;
+color: #202020;}
+.section3 {
+    background-color: rgb(15, 15, 15);
+    height: auto;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.footer-nav a {font-family: Quicksand, Tahoma, Arial;
+    color: white;
+    margin-top: 20px;
+}
+.gallery .iamges span {
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-nav a:hover {
+    color: rgb(117, 115, 115);
+}
+.images .social-icon {
+    color: rgb(0, 0, 0);
+}
+.posted {
+    color: gray;
+}
+.description {
+    font-size: 17px;
+    word-spacing: 2px;
+}
+.gallery .social-icon {
+    color: #CCCCCE;
+}
+.gallery a {
+    color: #CCCCCE;
+    padding-left: 10px;
+}

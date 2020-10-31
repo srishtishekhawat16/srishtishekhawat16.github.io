@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student array</title>
+    <script>
+      function studentdetails() {
+        var lack = [
+          {
+            name: "Yash",
+            age: 12,
+            profession: "Student",
+          },
+          {
+            name: "Naitik",
+            age: 11,
+            profession: "student",
+          },
+          {
+            name: "Aatish",
+            age: 16,
+            profession: "student",
+          },
+        ];
+        var i;
+        for (i = 0; i <= lack.length - 1; i++) {
+          document.write("</br>");
+          document.write("<h1>Details</h1>");
+          document.write(
+            " Name: " + lack[i].name,
+            "<br>",
+            " Age: " + lack[i].age,
+            "<br>",
+            " Profession: " + lack[i].profession
+          );
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="studentdetails()">Click Here</button>
+  </body>
+</html>
